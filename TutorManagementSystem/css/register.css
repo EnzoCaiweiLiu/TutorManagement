@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.page-container {
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #6C63FF, #4941ec, #32be8f);
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('comp9900/register/image/blob-scene.svg');
+    background-size: 100% 100%; /* 拉伸以填满整个容器 */
+    z-index: -1;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img img{
+    width: 500px;
+}
+
+form{
+    width: 360px;
+}
+
+.register-content img{
+    height: 100px;
+}
+
+.content-container {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    z-index: 1;
+    width: 1300px;
+    margin: 40px auto 0;
+    justify-content: space-between;
+}
+
+.content-container h1{
+    margin: 0; /* 移除默认的上下外边距 */
+}
+
+.introduction-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 40%;
+    margin-right: auto;
+}
+
+.introduction-container h1 {
+    margin-bottom: 10px;
+}
+
+.introduction-container h2 {
+    margin-top: 20px;/* 为 <h1> 底部添加 10 像素的间距 */
+}
+
+p {
+    margin-top: 10px; /* 为 <p> 顶部添加 10 像素的间距 */
+}
+
+.register-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin-left: auto;
+}
+
+.register-content form {
+    width: 360px;
+}
+
+.register-content h2 {
+    margin: 15px 0;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+}
+
+.input-div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.register-content .input-div.one{
+    margin-top: 0;
+}
+
+.input-div .i {
+    color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div .i i {
+    transition: .3s;
+}
+
+.input-div > div {
+    position: relative;
+    height: 45px;
+}
+
+.input-div > div > h5 {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.input-div:before, .input-div:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #38d39f;
+    transition: .4s;
+}
+
+.input-div select.input {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    appearance: none;
+}
+
+.input-div select.input option {
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+}
+
+.input-div:before {
+    right: 50%;
+}
+
+.input-div:after {
+    left: 50%;
+}
+
+.input-div.focus:before,
+.input-div.focus:after {
+    width: 50%;
+}
+
+.input-div.focus > div > h5 {
+    top: -5px;
+    font-size: 15px;
+}
+
+.input-div.focus > .i > i {
+    color: #38d39f;
+}
+
+.input-div > div > input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #6C63FF, #4941ec, #32be8f);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-position: right;
+}
+
+.register-link {
+    margin-top: 15px;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #38d39f;
+    transition: .3s;
+}
+
+.register-link a:hover {
+    color: #333;
+}
