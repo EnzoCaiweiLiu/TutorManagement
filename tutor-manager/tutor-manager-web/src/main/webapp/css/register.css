@@ -21,7 +21,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('comp9900/register/image/blob-scene.svg');
+    background-image: url('/image/blob-scene.svg');
     background-size: 100% 100%; /* 拉伸以填满整个容器 */
     z-index: -1;
 }
