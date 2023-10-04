@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification</title>
+    <link rel="stylesheet" type="text/css" href="css/verification.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="message-container">
+            <h1>Email Verification</h1>
+            <p>We've sent a verification email to the address you provided. Please check your inbox (and spam folder, just in case) for an email from us.</p>
+            <p>Enter the verification code from the email below:</p>
+            <form action="resetpw.html" method="POST" id="verification-form">
+                <div class="input-div">
+                    <input type="text" name="verification_code" placeholder="Verification Code" required>
+                </div>
+                <button type="submit" class="btn">Verify</button>
+            </form>
+            <p>If you don't receive the email within a few minutes or need assistance, please contact our support team.</p>
+        </div>
+    </div>
+</body>
+</html>

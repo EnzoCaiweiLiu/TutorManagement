@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-color: #f1f1f1; 
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+.message-container {
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+}
+
+.message-container h1 {
+    color: #333;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.message-container p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* 按钮样式，您可以自定义按钮样式 */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6C63FF; /* 按钮背景色 */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #4941ec; /* 鼠标悬停时的背景色 */
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}

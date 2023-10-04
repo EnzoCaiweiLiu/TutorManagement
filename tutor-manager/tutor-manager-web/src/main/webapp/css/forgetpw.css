@@ -7,7 +7,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
-    background-image: linear-gradient(to right, #6C63FF, #4941ec, #32be8f);
 }
 
 .container {
@@ -15,66 +14,49 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap :2rem;
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.img{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.img img{
-    width: 500px;
-}
-
-.register-content img{
-    margin: auto;
-    height: 100px;
-}
-
-.introduction-container{
-    margin: auto;
-    width: 540px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 10px;
 }
 
 .introduction-container h1 {
-    margin-bottom: 10px;
+    color: #333;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
 }
 
-.introduction-container h2 {
-    margin-top: 20px;/* 为 <h1> 底部添加 10 像素的间距 */
+.introduction-container p {
+    color: #666;
+    font-size: 1rem;
 }
 
-p {
-    margin-top: 10px; /* 为 <p> 顶部添加 10 像素的间距 */
-}
-
-.register-content {
-    margin: auto;
+.reset-content {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.register-content form {
+.reset-content form {
     width: 360px;
-    margin-right:20px ;
 }
 
-.register-content h2 {
+.reset-content h2.title {
     margin: 15px 0;
     color: #333;
     text-transform: uppercase;
-    font-size: 2.9rem;
+    font-size: 2.4rem;
 }
 
 .input-div {
@@ -84,10 +66,6 @@ p {
     margin: 25px 0;
     padding: 5px 0;
     border-bottom: 2px solid #d9d9d9;
-}
-
-.register-content .input-div.one{
-    margin-top: 0;
 }
 
 .input-div .i {
@@ -152,8 +130,7 @@ p {
     left: 50%;
 }
 
-.input-div.focus:before,
-.input-div.focus:after {
+.input-div.focus:before, .input-div.focus:after {
     width: 50%;
 }
 
@@ -178,7 +155,20 @@ p {
     padding: 0.5rem 0.7rem;
     font-size: 1.2rem;
     color: #555;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
+}
+
+a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #999;
+    font-size: 0.9rem;
+    transition: .3s;
+}
+
+a:hover {
+    color: #38d39f;
 }
 
 .btn {
@@ -203,43 +193,16 @@ p {
     background-position: right;
 }
 
-.register-link {
-    margin-top: 15px;
-    color: #999;
-    font-size: 0.9rem;
-}
-
-.register-link a {
-    text-decoration: none;
-    color: #38d39f;
-    transition: .3s;
-}
-
-.register-link a:hover {
-    color: #333;
-}
-
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center; /* 垂直居中对齐 */
-}
-
-.introduction-container,
-.register-content {
-    max-width: 100%; /* 添加一个最大宽度，防止内容溢出 */
-    display: block; /* 默认情况下显示两个容器 */
-    text-align: center;
-}
-
-/* 媒体查询，当页面宽度小于某个值时隐藏一个容器 */
 @media screen and (max-width: 900px) {
-    .introduction-container {
-        display: none; /* 隐藏 introduction-container */
+    .container {
+        grid-template-columns: 1fr;
     }
 
-    .register-content {
-        display: block; /* 显示 register-content */
+    .introduction-container {
+        display: none;
+    }
+
+    .reset-content {
+        justify-content: center;
     }
 }
