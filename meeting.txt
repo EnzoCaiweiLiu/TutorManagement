@@ -1,0 +1,39 @@
+Week1
+We have form the group of 5, it is named 5tigers;
+We have 1st meeting, and chose P16 Tutor Management Web Platform as topic;
+We decide the role of every one, so that we can prepare for work.
+
+Week2
+We have 2nd meeting, and we analysised scope of topic;
+We connect client for detailed feature of topic.
+
+Week 3
+We have 3rd meeting, and we compile the proposal;
+We have decided the work of each sprint.
+
+Week 4
+We have decided the work of this sprint of each;
+We have 4th meeting to discuss upon 1st sprint work.
+
+Week 5
+Found meeting to analysis the sprint work implemented;
+We have 5th meeting to discuss the future implement, modifying work decision.
+
+Week 6
+Flex week;
+We have 6th meeting to discuss the work in sprint2, and way to improve
+
+Week 7
+Found former work required change in some component;
+We have 7th meeting for detail peer works for we lose 1 member, and former work of him can not work
+
+Week 8
+We modified the sprint backlog to suit our progress;
+We complete the new target of our sprint 2;
+We found 8th meeting for above info.
+
+Week 9
+We get 9th meeting to discuss upon rest work, and finished those.
+
+Week 10
+We found 10th meeting for report work.

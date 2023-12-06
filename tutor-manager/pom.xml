@@ -15,6 +15,7 @@
         <module>tutor-manager-dao</module>
         <module>tutor-manager-pojo</module>
         <module>tutor-manager-web</module>
+        <module>tutor-manager-service</module>
     </modules>
 
     <properties>

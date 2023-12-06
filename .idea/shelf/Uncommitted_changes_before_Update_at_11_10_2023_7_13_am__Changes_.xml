@@ -1,0 +1,554 @@
+<changelist name="Uncommitted_changes_before_Update_at_11_10_2023_7_13_am_[Changes]" date="1696968784048" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_7_13_am_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 11/10/2023 7:13 am [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-web-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/tutor-manager-dao-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/pagehelper-4.1.6.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/MessageExample$Criterion.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/src/main/webapp/src/views/resetpw.vue" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/classes/unsw/comp9900/mapper/CourseMapper.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/commons-net-3.3.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-common/target/classes/unsw/comp9900/result/Result.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/UserExample$GeneratedCriteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/src/main/webapp/src/views/about.vue" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-core-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/CourseKey.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-service/target/classes/unsw/comp9900/service/iUserService.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/MessageExample$GeneratedCriteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/Rate.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web.war" />
+    <option name="AFTER_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web.war" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_7_13_am_[Changes]/tutor-manager-web.war" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/aspectjweaver-1.8.9.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/jackson-databind-2.4.2.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tomcat/logs/access_log.2023-10-10" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/druid-1.0.9.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-context-support-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/lombok-1.18.20.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/jsqlparser-0.9.1.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/commons-io-1.3.2.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-jms-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-expression-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-messaging-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/jackson-annotations-2.4.0.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/AppointmentExample.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-service/target/tutor-manager-service.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/protobuf-java-2.6.0.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/src/main/webapp/src/views/verification.vue" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/UserExample.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/jackson-core-2.4.2.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/classes/unsw/comp9900/mapper/ProfileMapper.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/classes/unsw/comp9900/controller/UserController.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/commons-lang3-3.3.2.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/classes/unsw/comp9900/mapper/AppointmentMapper.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/classes/unsw/comp9900/mapper/UserMapper.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/Appointment.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/ProfileExample$Criterion.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/mybatis-3.2.8.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/MessageExample$Criteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/Profile.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/tutor-manager-pojo.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/joda-time-2.5.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/tutor-manager-dao.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-webmvc-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/RateKey.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/commons-logging-1.2.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-tx-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/MessageExample.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/CourseExample$GeneratedCriteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/UserExample$Criterion.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/CourseExample$Criterion.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/CourseExample$Criteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/ProfileWithBLOBs.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/ProfileExample.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/ProfileExample$Criteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-service/target/classes/unsw/comp9900/service/UserServiceImpl.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/AppointmentExample$Criterion.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-aop-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/RateExample.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/classes/unsw/comp9900/mapper/MessageMapper.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-context-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/AppointmentExample$GeneratedCriteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/User.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/RateExample$Criterion.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/tutor-common-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-aspects-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/Course.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/src/main/webapp/src/App.vue" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-jdbc-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/tutor-manager-service-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/mybatis-paginator-1.2.15.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/slf4j-api-1.6.4.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/classes/unsw/comp9900/controller/UserController.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/tutor-manager-pojo-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/RateExample$GeneratedCriteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/slf4j-log4j12-1.6.4.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-common/target/tutor-common.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/spring-beans-4.3.3.RELEASE.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/Message.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/ProfileExample$GeneratedCriteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/UserExample$Criteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/RateExample$Criteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/CourseExample.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/src/main/webapp/src/assets/1.jpg" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tomcat/logs/access_log.2023-10-07" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/src/main/webapp/src/views/homepage.vue" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/classes/unsw/comp9900/mapper/RateMapper.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-pojo/target/classes/unsw/comp9900/pojo/AppointmentExample$Criteria.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/src/main/webapp/src/assets/logo.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tutor-manager/tutor-manager-web/target/tutor-manager-web/WEB-INF/lib/jstl-1.2.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

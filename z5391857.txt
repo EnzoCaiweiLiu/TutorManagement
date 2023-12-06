@@ -1,8 +1,0 @@
-Week 1
-We formed a group in the lab and named it 5Tigers. We selected Jiaming Zou to play the role of Scrum Master in the team. We created a Jira site and engaged in in-depth discussions about each other's areas of expertise. We divided the roles within the project based on our respective strengths before choosing the project topic. Finally, we made a decision regarding the project's theme.
-
-Week 2
-There were some changes within our team. One member decided to leave, and another person joined in their place. However, our roles and responsibilities remained the same, with the new member stepping into the shoes of the previous one. During this week, our Scrum Master and the client had discussions regarding the project's functionalities. We also compiled summaries of each team member's profiles to present to the client.
-
-Week 3
-Week 3 marked the beginning of the conceptualization phase for the entire project, and we successfully completed the project proposal. In the proposal, I handled tasks such as providing peoject background, analyzing the existing system, outlining some user stories, and discussing the frontend framework setup. Our team's progress aligned with our initial expectations, and my next task will involve initiating the design work for the signin and login interface.

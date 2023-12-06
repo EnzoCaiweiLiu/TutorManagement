@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="unsw.comp9900.mapper.AppointmentMapper">
+  <resultMap id="BaseResultMap" type="unsw.comp9900.pojo.Appointment">
+    <id column="aid" jdbcType="INTEGER" property="aid" />
+    <result column="csid" jdbcType="INTEGER" property="csid" />
+    <result column="tid" jdbcType="INTEGER" property="tid" />
+    <result column="sid" jdbcType="INTEGER" property="sid" />
+    <result column="start_time" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="finish_time" jdbcType="TIMESTAMP" property="finishTime" />
+    <result column="approve" jdbcType="BIT" property="approve" />
+    <result column="is_delete" jdbcType="BIT" property="isDelete" />
+  </resultMap>
+  <resultMap id="AppointmentDTOMap" type="unsw.comp9900.pojo.AppointmentDTO">
+    <id column="aid" jdbcType="INTEGER" property="aid" />
+    <result column="csid" jdbcType="INTEGER" property="csid" />
+    <result column="cname" jdbcType="VARCHAR" property="cname" />
+    <result column="tid" jdbcType="INTEGER" property="tid" />
+    <result column="tFName" jdbcType="VARCHAR" property="tFName" />
+    <result column="tMName" jdbcType="VARCHAR" property="tMName" />
+    <result column="tLName" jdbcType="VARCHAR" property="tLName" />
+    <result column="sid" jdbcType="INTEGER" property="sid" />
+    <result column="sFName" jdbcType="VARCHAR" property="sFName" />
+    <result column="sMName" jdbcType="VARCHAR" property="sMName" />
+    <result column="sLName" jdbcType="VARCHAR" property="sLName" />
+    <result column="start_time" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="location" jdbcType="VARCHAR" property="location" />
+    <result column="approve" jdbcType="BIT" property="approve" />
+    <result column="is_delete" jdbcType="BIT" property="isDelete" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    aid, csid, tid, sid, start_time, finish_time, approve, is_delete
+  </sql>
+  <select id="selectByExample" parameterType="unsw.comp9900.pojo.AppointmentExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from appointment
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from appointment
+    where aid = #{aid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from appointment
+    where aid = #{aid,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="unsw.comp9900.pojo.AppointmentExample">
+    delete from appointment
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="unsw.comp9900.pojo.Appointment">
+    insert into appointment (aid, csid, tid, 
+      sid, start_time, finish_time, 
+      approve, is_delete)
+    values (#{aid,jdbcType=INTEGER}, #{csid,jdbcType=INTEGER}, #{tid,jdbcType=INTEGER}, 
+      #{sid,jdbcType=INTEGER}, #{startTime,jdbcType=TIMESTAMP}, #{finishTime,jdbcType=TIMESTAMP}, 
+      #{approve,jdbcType=BIT}, #{isDelete,jdbcType=BIT})
+  </insert>
+  <insert id="insertSelective" parameterType="unsw.comp9900.pojo.Appointment">
+    insert into appointment
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="aid != null">
+        aid,
+      </if>
+      <if test="csid != null">
+        csid,
+      </if>
+      <if test="tid != null">
+        tid,
+      </if>
+      <if test="sid != null">
+        sid,
+      </if>
+      <if test="startTime != null">
+        start_time,
+      </if>
+      <if test="finishTime != null">
+        finish_time,
+      </if>
+      <if test="approve != null">
+        approve,
+      </if>
+      <if test="isDelete != null">
+        is_delete,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="aid != null">
+        #{aid,jdbcType=INTEGER},
+      </if>
+      <if test="csid != null">
+        #{csid,jdbcType=INTEGER},
+      </if>
+      <if test="tid != null">
+        #{tid,jdbcType=INTEGER},
+      </if>
+      <if test="sid != null">
+        #{sid,jdbcType=INTEGER},
+      </if>
+      <if test="startTime != null">
+        #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishTime != null">
+        #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="approve != null">
+        #{approve,jdbcType=BIT},
+      </if>
+      <if test="isDelete != null">
+        #{isDelete,jdbcType=BIT},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="unsw.comp9900.pojo.AppointmentExample" resultType="java.lang.Long">
+    select count(*) from appointment
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update appointment
+    <set>
+      <if test="row.aid != null">
+        aid = #{row.aid,jdbcType=INTEGER},
+      </if>
+      <if test="row.csid != null">
+        csid = #{row.csid,jdbcType=INTEGER},
+      </if>
+      <if test="row.tid != null">
+        tid = #{row.tid,jdbcType=INTEGER},
+      </if>
+      <if test="row.sid != null">
+        sid = #{row.sid,jdbcType=INTEGER},
+      </if>
+      <if test="row.startTime != null">
+        start_time = #{row.startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="row.finishTime != null">
+        finish_time = #{row.finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="row.approve != null">
+        approve = #{row.approve,jdbcType=BIT},
+      </if>
+      <if test="row.isDelete != null">
+        is_delete = #{row.isDelete,jdbcType=BIT},
+      </if>
+    </set>
+    <if test="example != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update appointment
+    set aid = #{row.aid,jdbcType=INTEGER},
+      csid = #{row.csid,jdbcType=INTEGER},
+      tid = #{row.tid,jdbcType=INTEGER},
+      sid = #{row.sid,jdbcType=INTEGER},
+      start_time = #{row.startTime,jdbcType=TIMESTAMP},
+      finish_time = #{row.finishTime,jdbcType=TIMESTAMP},
+      approve = #{row.approve,jdbcType=BIT},
+      is_delete = #{row.isDelete,jdbcType=BIT}
+    <if test="example != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="unsw.comp9900.pojo.Appointment">
+    update appointment
+    <set>
+      <if test="csid != null">
+        csid = #{csid,jdbcType=INTEGER},
+      </if>
+      <if test="tid != null">
+        tid = #{tid,jdbcType=INTEGER},
+      </if>
+      <if test="sid != null">
+        sid = #{sid,jdbcType=INTEGER},
+      </if>
+      <if test="startTime != null">
+        start_time = #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishTime != null">
+        finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="approve != null">
+        approve = #{approve,jdbcType=BIT},
+      </if>
+      <if test="isDelete != null">
+        is_delete = #{isDelete,jdbcType=BIT},
+      </if>
+    </set>
+    where aid = #{aid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="unsw.comp9900.pojo.Appointment">
+    update appointment
+    set csid = #{csid,jdbcType=INTEGER},
+      tid = #{tid,jdbcType=INTEGER},
+      sid = #{sid,jdbcType=INTEGER},
+      start_time = #{startTime,jdbcType=TIMESTAMP},
+      finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      approve = #{approve,jdbcType=BIT},
+      is_delete = #{isDelete,jdbcType=BIT}
+    where aid = #{aid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByAppointmentDTO" parameterType="unsw.comp9900.pojo.AppointmentDTO" resultMap="AppointmentDTOMap">
+    SELECT
+      ap.aid AS aid,
+      c.csid AS csid,
+      c.location AS location,
+      ct.name AS cname,
+      t.uid AS tid,
+      t.first_name AS tFName,
+      t.middle_name AS tMName,
+      t.last_name AS tLName,
+      s.uid AS sid,
+      s.first_name AS sFName,
+      s.middle_name AS sMName,
+      s.last_name AS sLName,
+      ap.start_time AS startTime,
+      ap.finish_time AS finishTime,
+      ap.approve AS approve,
+      ap.is_delete AS isDelete
+    FROM
+      Appointment AS ap
+        JOIN Course AS c ON ap.csid = c.csid
+        JOIN CourseType AS ct ON c.cid = ct.cid
+        JOIN Tutor AS t ON ap.tid = t.uid
+        JOIN Student AS s ON ap.sid = s.uid
+    WHERE
+      ap.is_delete != 1; -- Assuming 0 means not deleted for is_delete field
+
+  </select>
+  <select id="getAppointmentDTO" parameterType="unsw.comp9900.pojo.AppointmentDTO" resultMap="AppointmentDTOMap">
+    SELECT
+      ap.aid AS aid,
+      c.csid AS csid,
+      c.location AS location,
+      ct.name AS cname,
+      t.uid AS tid,
+      t.first_name AS tFName,
+      t.middle_name AS tMName,
+      t.last_name AS tLName,
+      s.uid AS sid,
+      s.first_name AS sFName,
+      s.middle_name AS sMName,
+      s.last_name AS sLName,
+      ap.start_time AS startTime,
+      ap.finish_time AS finishTime,
+      ap.approve AS approve,
+      ap.is_delete AS isDelete
+    FROM
+      Appointment AS ap
+        JOIN Course AS c ON ap.csid = c.csid
+        JOIN CourseType AS ct ON c.cid = ct.cid
+        JOIN Tutor AS t ON ap.tid = t.uid
+        JOIN Student AS s ON ap.sid = s.uid
+    WHERE
+      ap.is_delete != 1
+      AND C.is_delete != 1
+      AND T.is_delete != 1
+      AND S.is_delete != 1
+      AND (
+      #{aid,jdbcType=INTEGER} IS NULL OR ap.aid = #{aid,jdbcType=INTEGER}
+      )
+      AND (
+      #{tid,jdbcType=INTEGER} IS NULL OR ap.tid = #{tid,jdbcType=INTEGER}
+      )
+      AND (
+      #{csid,jdbcType=INTEGER} IS NULL OR c.csid = #{csid,jdbcType=INTEGER}
+      )
+      AND (
+      #{sid,jdbcType=INTEGER} IS NULL OR ap.sid = #{sid,jdbcType=INTEGER}
+      )
+      AND (
+      #{cname,jdbcType=VARCHAR} IS NULL OR ct.name LIKE CONCAT('%', #{cname,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{location,jdbcType=VARCHAR} IS NULL OR c.location = #{location,jdbcType=VARCHAR}
+      )
+      AND (
+      #{tFName,jdbcType=VARCHAR} IS NULL OR t.first_name LIKE CONCAT('%', #{tFName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{tMName,jdbcType=VARCHAR} IS NULL OR t.middle_name LIKE CONCAT('%', #{tMName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{tLName,jdbcType=VARCHAR} IS NULL OR t.last_name LIKE CONCAT('%', #{tLName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{sFName,jdbcType=VARCHAR} IS NULL OR s.first_name LIKE CONCAT('%', #{sFName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{sMName,jdbcType=VARCHAR} IS NULL OR s.middle_name LIKE CONCAT('%', #{sMName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{sLName,jdbcType=VARCHAR} IS NULL OR s.last_name LIKE CONCAT('%', #{sLName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{approve,jdbcType=BOOLEAN} IS NULL OR ap.approve = #{approve,jdbcType=BOOLEAN}
+      );
+
+  </select>
+</mapper>

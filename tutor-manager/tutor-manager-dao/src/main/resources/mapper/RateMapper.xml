@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="unsw.comp9900.mapper.RateMapper">
+  <resultMap id="BaseResultMap" type="unsw.comp9900.pojo.Rate">
+    <id column="aid" jdbcType="INTEGER" property="aid" />
+    <result column="rate" jdbcType="INTEGER" property="rate" />
+    <result column="feedback" jdbcType="VARCHAR" property="feedback" />
+    <result column="is_delete" jdbcType="BIT" property="isDelete" />
+  </resultMap>
+  <resultMap id="RateDTOMap" type="unsw.comp9900.pojo.RateDTO">
+    <id column="aid" jdbcType="INTEGER" property="aid" />
+    <result column="tid" jdbcType="INTEGER" property="tid" />
+    <result column="tFName" jdbcType="VARCHAR" property="tFName" />
+    <result column="tMName" jdbcType="VARCHAR" property="tMName" />
+    <result column="tLName" jdbcType="VARCHAR" property="tLName" />
+    <result column="sid" jdbcType="INTEGER" property="sid" />
+    <result column="sFName" jdbcType="VARCHAR" property="sFName" />
+    <result column="sMName" jdbcType="VARCHAR" property="sMName" />
+    <result column="sLName" jdbcType="VARCHAR" property="sLName" />
+    <result column="csid" jdbcType="INTEGER" property="csid" />
+    <result column="cname" jdbcType="VARCHAR" property="cname" />
+    <result column="rate" jdbcType="INTEGER" property="rate" />
+    <result column="feedback" jdbcType="VARCHAR" property="feedback" />
+    <result column="is_delete" jdbcType="BIT" property="isDelete" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    aid, rate, feedback, is_delete
+  </sql>
+  <select id="selectByExample" parameterType="unsw.comp9900.pojo.RateExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from rate
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from rate
+    where aid = #{aid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from rate
+    where aid = #{aid,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="unsw.comp9900.pojo.RateExample">
+    delete from rate
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="unsw.comp9900.pojo.Rate">
+    insert into rate (aid, rate, feedback, 
+      is_delete)
+    values (#{aid,jdbcType=INTEGER}, #{rate,jdbcType=INTEGER}, #{feedback,jdbcType=VARCHAR}, 
+      #{isDelete,jdbcType=BIT})
+  </insert>
+  <insert id="insertSelective" parameterType="unsw.comp9900.pojo.Rate">
+    insert into rate
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="aid != null">
+        aid,
+      </if>
+      <if test="rate != null">
+        rate,
+      </if>
+      <if test="feedback != null">
+        feedback,
+      </if>
+      <if test="isDelete != null">
+        is_delete,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="aid != null">
+        #{aid,jdbcType=INTEGER},
+      </if>
+      <if test="rate != null">
+        #{rate,jdbcType=INTEGER},
+      </if>
+      <if test="feedback != null">
+        #{feedback,jdbcType=VARCHAR},
+      </if>
+      <if test="isDelete != null">
+        #{isDelete,jdbcType=BIT},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="unsw.comp9900.pojo.RateExample" resultType="java.lang.Long">
+    select count(*) from rate
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update rate
+    <set>
+      <if test="row.aid != null">
+        aid = #{row.aid,jdbcType=INTEGER},
+      </if>
+      <if test="row.rate != null">
+        rate = #{row.rate,jdbcType=INTEGER},
+      </if>
+      <if test="row.feedback != null">
+        feedback = #{row.feedback,jdbcType=VARCHAR},
+      </if>
+      <if test="row.isDelete != null">
+        is_delete = #{row.isDelete,jdbcType=BIT},
+      </if>
+    </set>
+    <if test="example != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update rate
+    set aid = #{row.aid,jdbcType=INTEGER},
+      rate = #{row.rate,jdbcType=INTEGER},
+      feedback = #{row.feedback,jdbcType=VARCHAR},
+      is_delete = #{row.isDelete,jdbcType=BIT}
+    <if test="example != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="unsw.comp9900.pojo.Rate">
+    update rate
+    <set>
+      <if test="rate != null">
+        rate = #{rate,jdbcType=INTEGER},
+      </if>
+      <if test="feedback != null">
+        feedback = #{feedback,jdbcType=VARCHAR},
+      </if>
+      <if test="isDelete != null">
+        is_delete = #{isDelete,jdbcType=BIT},
+      </if>
+    </set>
+    where aid = #{aid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="unsw.comp9900.pojo.Rate">
+    update rate
+    set rate = #{rate,jdbcType=INTEGER},
+      feedback = #{feedback,jdbcType=VARCHAR},
+      is_delete = #{isDelete,jdbcType=BIT}
+    where aid = #{aid,jdbcType=INTEGER}
+  </update>
+  <select id="getRateDTO" parameterType="unsw.comp9900.pojo.RateDTO" resultMap="RateDTOMap">
+    SELECT
+      r.aid AS aid,
+      t.uid AS tid,
+      t.first_name AS tFName,
+      t.middle_name AS tMName,
+      t.last_name AS tLName,
+      s.uid AS sid,
+      s.first_name AS sFName,
+      s.middle_name AS sMName,
+      s.last_name AS sLName,
+      c.csid AS csid,
+      ct.name AS cname,
+      r.rate AS rate,
+      r.feedback AS feedback,
+      r.is_delete AS isDelete
+
+    FROM
+        Rate AS r
+        JOIN Appointment AS ap ON r.aid = ap.aid
+        JOIN Course AS c ON ap.csid = c.csid
+        JOIN CourseType AS ct ON c.cid = ct.cid
+        JOIN Tutor AS t ON ap.tid = t.uid
+        JOIN Student AS s ON ap.sid = s.uid
+    WHERE
+      r.is_delete != 1
+      AND ap.is_delete != 1
+      AND C.is_delete != 1
+      AND T.is_delete != 1
+      AND S.is_delete != 1
+      AND (
+      #{aid,jdbcType=INTEGER} IS NULL OR r.aid = #{aid,jdbcType=INTEGER}
+      )
+      AND (
+      #{tid,jdbcType=INTEGER} IS NULL OR ap.tid = #{tid,jdbcType=INTEGER}
+      )
+      AND (
+        #{tFName,jdbcType=VARCHAR} IS NULL OR t.first_name LIKE CONCAT('%', #{tFName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+        #{tMName,jdbcType=VARCHAR} IS NULL OR t.middle_name LIKE CONCAT('%', #{tMName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+        #{tLName,jdbcType=VARCHAR} IS NULL OR t.last_name LIKE CONCAT('%', #{tLName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{sid,jdbcType=INTEGER} IS NULL OR ap.sid = #{sid,jdbcType=INTEGER}
+      )
+      AND (
+        #{sFName,jdbcType=VARCHAR} IS NULL OR s.first_name LIKE CONCAT('%', #{sFName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+        #{sMName,jdbcType=VARCHAR} IS NULL OR s.middle_name LIKE CONCAT('%', #{sMName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+        #{sLName,jdbcType=VARCHAR} IS NULL OR s.last_name LIKE CONCAT('%', #{sLName,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{csid,jdbcType=INTEGER} IS NULL OR c.csid = #{csid,jdbcType=INTEGER}
+      )
+      AND (
+        #{cname,jdbcType=VARCHAR} IS NULL OR ct.name LIKE CONCAT('%', #{cname,jdbcType=VARCHAR}, '%')
+      )
+      AND (
+      #{rate,jdbcType=INTEGER} IS NULL OR r.rate = #{rate,jdbcType=INTEGER}
+      )
+      AND (
+        #{feedback,jdbcType=VARCHAR} IS NULL OR r.feedback LIKE CONCAT('%', #{feedback,jdbcType=VARCHAR}, '%')
+      );
+  </select>
+</mapper>

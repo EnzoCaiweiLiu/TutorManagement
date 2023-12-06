@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tutor-manager-web:war" />
+      <artifact name="tutor-manager-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4a0d945-008d-4ff6-8698-2494c4e17d90" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_10_2023_9_53_pm_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_10_2023_9_53_pm_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_10_2023_9_53_pm__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_6_28_am_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_6_28_am__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_7_13_am_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_7_13_am_[Changes]/tutor-manager-web.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_7_13_am__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_7_18_am_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2023_7_18_am__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB_V3_10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meeting.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-common/src/main/java/unsw/comp9900/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-common/src/main/java/unsw/comp9900/SendMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-common/src/main/java/unsw/comp9900/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/AppointmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/CourseTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/MessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/RateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/SupportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/TutorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/java/unsw/comp9900/mapper/VerifyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/AppointmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/CourseTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/MessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/RateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/SupportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/TutorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/src/main/resources/mapper/VerifyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/target/classes/mapper/AppointmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/target/classes/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/target/classes/mapper/CourseTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/target/classes/mapper/MessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-dao/target/classes/mapper/RateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/AdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/AppointmentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/AppointmentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/CourseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/CourseKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/CourseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/CourseTypeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/MessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/MessageExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/RateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/RateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/RateKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/StudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/SupportExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/SupportWithBLOBs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Tutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/TutorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/TutorWithBLOBs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/Verify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-pojo/src/main/java/unsw/comp9900/pojo/VerifyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/AppointmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/CourseTypeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/RateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/SupportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/TutorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/Impl/VerifyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iAppointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iCourseTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iRateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iSupportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iTutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/src/main/java/unsw/comp9900/service/iVerifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/AppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/RateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/SupportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/TutorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/controller/VerifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/java/unsw/comp9900/interceptor/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/resources/mybatis/MyBatis-Config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/resources/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/resources/properties/mail.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/resources/spring/applicationContext-base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/api/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/api/commonAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/api/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/auth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/blob-scene.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/defaultavatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/supoort.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/tigerLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/wave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/wave2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/assets/wel_cats.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/DeleteProfile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/EditProfile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/FBsubmitter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/FBviewer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/LearningHistory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/MyAppointment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/UserProfile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/admMngCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/courseCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/courseFilter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/courseMngCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/indexDash.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/stuMDDrawer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/stuMEDrawer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/stuMngCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/supMngCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/supportForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/timetable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/tutAppointment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/tutLearningHistory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/tutMngCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/components/tutTime.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/shims-vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/Message.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/about.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/account.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/forgetpw.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/homepage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/resetpw.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/support.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/src/views/verification.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/student_photo/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/student_photo/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/student_photo/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/student_photo/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/student_photo/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/student_photo/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/student_photo/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/tutor_photo/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/tutor_photo/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/upload_file_21/Shiliu-7997_ph.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/upload_file_21/data1x02-2023-Project-stage3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/AdminControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/AppointmentControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/CourseControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/MessageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/RateControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/StudentControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/SupportControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/TutorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/test/java/unsw/comp9900/controller/VerifyControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/classes/mybatis/MyBatis-Config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/classes/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/classes/properties/mail.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/classes/spring/applicationContext-base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/tutor-manager-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutor-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutor-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutor-manager/tutor-manager-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z5391857.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z5474520.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z5475362.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Vue Class API Component" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="frontEnd" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="backEnd" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="28de80f1-ff8d-46a8-9c1b-e1ad174c8c5b" />
+        <option name="url" value="git@github.com:unsw-cse-comp3900-9900-23T3/capstone-project-9900h09a5tigers.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2W9PfkVbykv5xBSJ3Kyjw4ZChph" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/123/TutorManagement",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "e3ce469920f2e63bdd62f05e581ef0dd",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="unsw.comp9900.email" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\UNSW\COMP9900\FYP\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-dao\src\main\resources\mapper" />
+      <recent name="D:\study\UNSW\COMP9900\FYP\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-pojo\src\main\java\unsw\comp9900\pojo" />
+      <recent name="G:\UNSW\T3\COMP9900\workSpace\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-dao\src\main\resources\mapper" />
+      <recent name="G:\UNSW\T3\COMP9900\workSpace\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-pojo\src\main\java\unsw\comp9900\pojo" />
+      <recent name="D:\study\UNSW\COMP9900\FYP\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-dao\src\main\java\unsw\comp9900\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\UNSW\T3\COMP9900\workSpace\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-dao\src\main\java\unsw\comp9900\mapper" />
+      <recent name="G:\UNSW\T3\COMP9900\workSpace\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-web\src\main\resources" />
+      <recent name="G:\UNSW\T3\COMP9900\workSpace\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-web\src" />
+      <recent name="G:\UNSW\T3\COMP9900\workSpace\capstone-project-9900h09a5tigers\tutor-manager\tutor-manager-service" />
+      <recent name="G:\UNSW\T3\COMP9900\workSpace\capstone-project-9900h09a5tigers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unsw.comp9900.mapper" />
+      <recent name="unsw.comp9900.pojo" />
+      <recent name="unsw.comp9900.controller" />
+      <recent name="mapper" />
+      <recent name="unsw.comp9900.service.Impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.capstone-project-9900h09a5tigers [tomcat7:run]">
+    <configuration name="ProfileServiceImplTest.testUpdateProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutor-manager-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unsw.comp9900.service.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unsw.comp9900.service" />
+      <option name="MAIN_CLASS_NAME" value="unsw.comp9900.service.ProfileServiceImplTest" />
+      <option name="METHOD_NAME" value="testUpdateProfile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutor-manager-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unsw.comp9900.service.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unsw.comp9900.service" />
+      <option name="MAIN_CLASS_NAME" value="unsw.comp9900.service.UserServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutor-manager-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unsw.comp9900.service.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unsw.comp9900.service" />
+      <option name="MAIN_CLASS_NAME" value="unsw.comp9900.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testUpdateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="capstone-project-9900h09a5tigers [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserServiceImplTest.testUpdateUser" />
+      <item itemvalue="JUnit.ProfileServiceImplTest.testUpdateProfile" />
+      <item itemvalue="JUnit.UserServiceImplTest" />
+      <item itemvalue="Maven.capstone-project-9900h09a5tigers [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.ProfileServiceImplTest.testUpdateProfile" />
+        <item itemvalue="JUnit.UserServiceImplTest.testUpdateUser" />
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.ProfileServiceImplTest.testUpdateProfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4a0d945-008d-4ff6-8698-2494c4e17d90" name="Changes" comment="" />
+      <created>1696141928466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696141928466</updated>
+      <workItem from="1696141929772" duration="126000" />
+      <workItem from="1696142100916" duration="4276000" />
+      <workItem from="1696412410688" duration="17725000" />
+      <workItem from="1696489507498" duration="17392000" />
+      <workItem from="1696565774718" duration="17732000" />
+      <workItem from="1696651203155" duration="90000" />
+      <workItem from="1696651308525" duration="4314000" />
+      <workItem from="1696675467368" duration="607000" />
+      <workItem from="1696737571724" duration="5454000" />
+      <workItem from="1696918240710" duration="7847000" />
+      <workItem from="1697690741902" duration="5478000" />
+      <workItem from="1697696286880" duration="10084000" />
+      <workItem from="1697722640286" duration="11326000" />
+      <workItem from="1697807276537" duration="894000" />
+      <workItem from="1697863859895" duration="6717000" />
+      <workItem from="1698205941361" duration="633000" />
+      <workItem from="1698331158599" duration="190000" />
+      <workItem from="1698375894899" duration="13947000" />
+      <workItem from="1698417537904" duration="468000" />
+      <workItem from="1698460969953" duration="1672000" />
+      <workItem from="1698463670951" duration="1790000" />
+      <workItem from="1698630024153" duration="10073000" />
+      <workItem from="1698660456374" duration="1341000" />
+      <workItem from="1698729042163" duration="6395000" />
+      <workItem from="1698748233526" duration="7098000" />
+      <workItem from="1698756310834" duration="674000" />
+      <workItem from="1698759658811" duration="1002000" />
+      <workItem from="1698776423877" duration="738000" />
+      <workItem from="1698819709864" duration="7556000" />
+      <workItem from="1698925358602" duration="2894000" />
+      <workItem from="1701898358409" duration="152000" />
+    </task>
+    <task id="LOCAL-00001" summary="architecture design">
+      <created>1696147734711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696147734711</updated>
+    </task>
+    <task id="LOCAL-00002" summary="modify the url">
+      <created>1696147792534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696147792534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Generator entity">
+      <created>1696177162801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696177162801</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mvc architecture">
+      <created>1696433064151</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696433064151</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove usermapper">
+      <created>1696494631495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696494631495</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix bug">
+      <created>1696497332005</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696497332005</updated>
+    </task>
+    <task id="LOCAL-00007" summary="get User by email">
+      <created>1696568078056</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696568078057</updated>
+    </task>
+    <task id="LOCAL-00008" summary="get User by email">
+      <created>1696568104694</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696568104694</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1. update password function&#10;2. fix some bug">
+      <option name="closed" value="true" />
+      <created>1696654874442</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696654874442</updated>
+    </task>
+    <task id="LOCAL-00010" summary="get all profile and update profile function">
+      <option name="closed" value="true" />
+      <created>1696745693496</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696745693496</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <option name="closed" value="true" />
+      <created>1696913450035</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696913450035</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Upload and download file function">
+      <option name="closed" value="true" />
+      <created>1696918810546</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696918810546</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1.find course by key&#10;2.find course by tutor name">
+      <option name="closed" value="true" />
+      <created>1697018061069</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697018061069</updated>
+    </task>
+    <task id="LOCAL-00014" summary="divide use to student and tutor">
+      <created>1697690936520</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697690936520</updated>
+    </task>
+    <task id="LOCAL-00015" summary="divide user to student and tutor">
+      <created>1697691030459</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697691030459</updated>
+    </task>
+    <task id="LOCAL-00016" summary="findCourseBySelective">
+      <created>1697697518844</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697697518844</updated>
+    </task>
+    <task id="LOCAL-00017" summary="findCourseBySelective">
+      <created>1697697535568</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697697535568</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Appointment function">
+      <created>1697707476793</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697707476793</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1.course CRUD function&#10;2.appointment CRUD function&#10;3.modify database with course">
+      <created>1697732673935</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697732673935</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix update Appointment function bug">
+      <created>1697733559577</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697733559577</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update weekly record">
+      <option name="closed" value="true" />
+      <created>1697806617967</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697806617967</updated>
+    </task>
+    <task id="LOCAL-00022" summary="1. Update DB&#10;2. Fix all what need to change&#10;3. Admin logic&#10;4. Verify code function">
+      <option name="closed" value="true" />
+      <created>1698416450164</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1698416450164</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Re-upload">
+      <option name="closed" value="true" />
+      <created>1698464194189</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1698464194189</updated>
+    </task>
+    <task id="LOCAL-00024" summary="1. Update DB&#10;2. Change update psw&#10;3. Appointment approve and unapproved function&#10;4. Course is selected or not">
+      <option name="closed" value="true" />
+      <created>1698653274196</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1698653274196</updated>
+    </task>
+    <task id="LOCAL-00025" summary="1. Update DB&#10;2. Delete Student and Tutor function&#10;3. Rate functions&#10;4. Fix some bugs">
+      <option name="closed" value="true" />
+      <created>1698754945919</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1698754945919</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1. message function&#10;2. courseType function&#10;3. modify Course and message structure in database design">
+      <created>1698775834523</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1698775834523</updated>
+    </task>
+    <task id="LOCAL-00027" summary="personal work">
+      <created>1698776047889</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1698776047889</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fix bug">
+      <option name="closed" value="true" />
+      <created>1698806073827</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1698806073827</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add appointment delete function">
+      <option name="closed" value="true" />
+      <created>1698807928257</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1698807928257</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fix upload and download function">
+      <option name="closed" value="true" />
+      <created>1698826714047</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1698826714047</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/backEnd" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="remove usermapper" />
+    <MESSAGE value="fix bug" />
+    <MESSAGE value="get User by email" />
+    <MESSAGE value="1. update password function&#10;2. fix some bug" />
+    <MESSAGE value="get all profile and update profile function" />
+    <MESSAGE value="1" />
+    <MESSAGE value="Upload and download file function" />
+    <MESSAGE value="1.find course by key&#10;2.find course by tutor name" />
+    <MESSAGE value="divide use to student and tutor" />
+    <MESSAGE value="divide user to student and tutor" />
+    <MESSAGE value="findCourseBySelective" />
+    <MESSAGE value="Appointment function" />
+    <MESSAGE value="1.course CRUD function&#10;2.appointment CRUD function&#10;3.modify database with course" />
+    <MESSAGE value="fix update Appointment function bug" />
+    <MESSAGE value="Update weekly record" />
+    <MESSAGE value="1. Update DB&#10;2. Fix all what need to change&#10;3. Admin logic&#10;4. Verify code function" />
+    <MESSAGE value="Re-upload" />
+    <MESSAGE value="1. Update DB&#10;2. Change update psw&#10;3. Appointment approve and unapproved function&#10;4. Course is selected or not" />
+    <MESSAGE value="1. Update DB&#10;2. Delete Student and Tutor function&#10;3. Rate functions&#10;4. Fix some bugs" />
+    <MESSAGE value="1. message function&#10;2. courseType function&#10;3. modify Course and message structure in database design" />
+    <MESSAGE value="personal work" />
+    <MESSAGE value="Fix bug" />
+    <MESSAGE value="Add appointment delete function" />
+    <MESSAGE value="Fix upload and download function" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
